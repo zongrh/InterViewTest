@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cn.my.rxjavatest">
+
+    <application
+            android:name=".Application"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".test.RxJavaAct24_window">
+        </activity>
+        <activity android:name=".test.RxJavaAct23_scan">
+        </activity>
+        <activity android:name=".test.RxJavaAct22_reduce">
+        </activity>
+        <activity android:name=".test.RxJavaAct21_merge">
+        </activity>
+        <activity android:name=".test.RxJavaAct20_last">
+        </activity>
+        <activity android:name=".test.RxJavaAct19_defer">
+        </activity>
+        <activity android:name=".test.RxJavaAct18_debounce">
+        </activity>
+        <activity android:name=".test.RxJavaAct17_Single">
+        </activity>
+        <activity android:name=".test.RxJavaAct16_just">
+        </activity>
+        <activity android:name=".test.RxJavaAct15_take">
+        </activity>
+        <activity android:name=".test.RxJavaAct14_skip">
+        </activity>
+        <activity android:name=".test.RxJavaAct13_doOnNext">
+        </activity>
+        <activity android:name=".test.RxJavaAct12_interval">
+        </activity>
+        <activity android:name=".test.RxJavaAct11_timer">
+        </activity>
+        <activity android:name=".test.RxJavaAct10_buffer">
+        </activity>
+        <activity android:name=".test.RxJavaAct9_Filter">
+        </activity>
+        <activity android:name=".test.RxJavaAct8_distinct">
+        </activity>
+        <activity android:name=".test.RxJavaAct7_concatMap">
+        </activity>
+        <activity android:name=".test.RxJavaAct6_flatMap">
+        </activity>
+        <activity android:name=".test.RxJavaAct5_cancat">
+        </activity>
+        <activity android:name=".test.RxJavaAct4_zip">
+        </activity>
+        <activity android:name=".test.RxJavaAct3_map">
+        </activity>
+        <activity android:name=".test.RxJavaAct2_create">
+        </activity>
+        <activity android:name=".test.RxJavaAct">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
