@@ -5,7 +5,6 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import cn.my.rxjavatest.Application;
-import cn.my.rxjavatest.CommonAdapter;
 
 import java.util.List;
 

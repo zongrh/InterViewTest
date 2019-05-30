@@ -5,6 +5,6 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".test.RxJavaAct14_skip">
+        tools:context=".operator.RxJavaAct14_skip">
 
 </android.support.constraint.ConstraintLayout>

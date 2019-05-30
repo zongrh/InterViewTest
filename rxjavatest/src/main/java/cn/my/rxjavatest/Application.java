@@ -1,6 +1,7 @@
 package cn.my.rxjavatest;
 
 import android.content.Context;
+import com.androidnetworking.AndroidNetworking;
 
 /**
  * @created by PingYuan at 8/2/18
@@ -15,5 +16,7 @@ public class Application extends android.app.Application {
     public void onCreate() {
         super.onCreate();
         sAppContext = this;
+        AndroidNetworking.initialize(getApplicationContext());
+
     }
 }

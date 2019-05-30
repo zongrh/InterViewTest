@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="cn.my.rxjavatest">
+    <!-- 申明可能需要的网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
             android:name=".Application"
@@ -10,55 +12,85 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".test.RxJavaAct24_window">
+        <activity android:name=".sample.RxThreadActivity">
         </activity>
-        <activity android:name=".test.RxJavaAct23_scan">
+        <activity android:name=".sample.RxCaseIntervalActivity">
         </activity>
-        <activity android:name=".test.RxJavaAct22_reduce">
+        <activity android:name=".sample.RxCaseDebounceActivity">
         </activity>
-        <activity android:name=".test.RxJavaAct21_merge">
+        <activity android:name=".sample.RxCaseConcatActivity">
         </activity>
-        <activity android:name=".test.RxJavaAct20_last">
+        <activity android:name=".sample.RxCaseFlatMapActivity">
         </activity>
-        <activity android:name=".test.RxJavaAct19_defer">
+        <activity android:name=".sample.RxCaseZipActivity">
         </activity>
-        <activity android:name=".test.RxJavaAct18_debounce">
+        <activity android:name=".sample.RxNetworkActivity">
         </activity>
-        <activity android:name=".test.RxJavaAct17_Single">
+        <activity android:name=".sample.RxNetSingleActivity">
         </activity>
-        <activity android:name=".test.RxJavaAct16_just">
+        <activity android:name=".SampleActivity">
         </activity>
-        <activity android:name=".test.RxJavaAct15_take">
+        <activity android:name=".OperatorActivity">
         </activity>
-        <activity android:name=".test.RxJavaAct14_skip">
+        <activity android:name=".operator.RxJavaAct29_Flowable">
         </activity>
-        <activity android:name=".test.RxJavaAct13_doOnNext">
+        <activity android:name=".operator.RxJavaAct28_Completable">
         </activity>
-        <activity android:name=".test.RxJavaAct12_interval">
+        <activity android:name=".operator.RxJavaAct27_BehaviorSubject">
         </activity>
-        <activity android:name=".test.RxJavaAct11_timer">
+        <activity android:name=".operator.RxJavaAct26_AsyncSubject">
         </activity>
-        <activity android:name=".test.RxJavaAct10_buffer">
+        <activity android:name=".operator.RxJavaAct25_PublishSubject">
         </activity>
-        <activity android:name=".test.RxJavaAct9_Filter">
+        <activity android:name=".operator.RxJavaAct24_window">
         </activity>
-        <activity android:name=".test.RxJavaAct8_distinct">
+        <activity android:name=".operator.RxJavaAct23_scan">
         </activity>
-        <activity android:name=".test.RxJavaAct7_concatMap">
+        <activity android:name=".operator.RxJavaAct22_reduce">
         </activity>
-        <activity android:name=".test.RxJavaAct6_flatMap">
+        <activity android:name=".operator.RxJavaAct21_merge">
         </activity>
-        <activity android:name=".test.RxJavaAct5_cancat">
+        <activity android:name=".operator.RxJavaAct20_last">
         </activity>
-        <activity android:name=".test.RxJavaAct4_zip">
+        <activity android:name=".operator.RxJavaAct19_defer">
         </activity>
-        <activity android:name=".test.RxJavaAct3_map">
+        <activity android:name=".operator.RxJavaAct18_debounce">
         </activity>
-        <activity android:name=".test.RxJavaAct2_create">
+        <activity android:name=".operator.RxJavaAct17_Single">
         </activity>
-        <activity android:name=".test.RxJavaAct">
+        <activity android:name=".operator.RxJavaAct16_just">
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".operator.RxJavaAct15_take">
+        </activity>
+        <activity android:name=".operator.RxJavaAct14_skip">
+        </activity>
+        <activity android:name=".operator.RxJavaAct13_doOnNext">
+        </activity>
+        <activity android:name=".operator.RxJavaAct12_interval">
+        </activity>
+        <activity android:name=".operator.RxJavaAct11_timer">
+        </activity>
+        <activity android:name=".operator.RxJavaAct10_buffer">
+        </activity>
+        <activity android:name=".operator.RxJavaAct9_Filter">
+        </activity>
+        <activity android:name=".operator.RxJavaAct8_distinct">
+        </activity>
+        <activity android:name=".operator.RxJavaAct7_concatMap">
+        </activity>
+        <activity android:name=".operator.RxJavaAct6_flatMap">
+        </activity>
+        <activity android:name=".operator.RxJavaAct5_cancat">
+        </activity>
+        <activity android:name=".operator.RxJavaAct4_zip">
+        </activity>
+        <activity android:name=".operator.RxJavaAct3_map">
+        </activity>
+        <activity android:name=".operator.RxJavaAct2_create">
+        </activity>
+        <activity android:name=".operator.RxJavaAct">
+        </activity>
+        <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
